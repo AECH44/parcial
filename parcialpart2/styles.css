@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/*  hecho por: carlos andres montoya pacheco*/
+.container-general{
+    width: 1000vw;
+    height: 100vh;
+}
+
+.conatainer-green{
+    background-color: #1aebb6;
+    width: 550px;
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+.container-princi{
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    box-shadow: 5px 5px 20px;
+    left: 42.5%;
+    top: 7%;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+  
+}
+.Email{
+    margin-left: 67px;
+    transform: translateY(55px);
+
+}
+.Password{
+    margin-left: 67px ;
+    transform: translateY(55px);
+}
+
+.container-green2{
+    background-color: #1aebb6;
+    width:300px ;
+    height: 85.2vh;
+    position: absolute;
+    box-shadow: 5px 5px 20px;
+    left: 19.3%;
+    top: 7%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    width: 55%;
+}
+.lavar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+}
+.login_form{
+    border: 1px solid white;
+    width: 450px;
+    height: 500px;
+    margin-top: 50px ;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    width: 70%;
+    background: white;
+    padding: 10px;
+    border: 1px solid grey;
+    margin-top: 60px;
+    margin-left: 15%;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+.content::placeholder{
+    color: #414767;
+}
+
+
+
+.button{
+    width: 80%;
+    padding: 10px;
+    margin-top: 70px;
+    margin-left: 14%;
+    background: #1aebb6 ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+}
+.help{
+    right: 0;
+    position: absolute;
+
+}
+.Forgot{
+    margin-left: 300px;
+    font-size: 13px;
+
+}
+.login{
+    margin-left: 200px;
+
+}
